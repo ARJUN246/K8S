@@ -1,3 +1,4 @@
+---
 apiVersion: batch/v1
 kind: Job
 metadata: 
@@ -5,7 +6,7 @@ metadata:
 spec:
   template: 
     metadata: 
-      name: jobpod
+      name: Jobpod
     spec:
       restartPolicy: OnFailure
       containers: 
