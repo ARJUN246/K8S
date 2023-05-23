@@ -6,7 +6,7 @@ metadata:
 spec:
   template: 
     metadata: 
-      name: Jobpod
+      name: jgitobpod
     spec:
       restartPolicy: OnFailure
       containers: 

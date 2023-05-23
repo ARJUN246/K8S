@@ -19,4 +19,4 @@ spec:
               image: alpine
               command:
                 - sleep
-                -3s
+                - 3s
