@@ -11,6 +11,7 @@ spec:
       restartPolicy: OnFailure
       containers: 
         - image: alpine
+          name: alpine
           command:
             - sleep
             - 10s    
