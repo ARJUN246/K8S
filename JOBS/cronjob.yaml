@@ -5,7 +5,7 @@ metadata:
   name: periodicjob
 spec: 
   schedule: '* * * * *'
-  jobtemplate:
+  jobTemplate:
     metadata:
       name: getlivedata
     spec: 
